@@ -208,6 +208,8 @@ textarea{
     padding : 8px 0;
 }
 
+/*---------RDRNKS PAGE-----------*/
+
 a.drinks-box{
     text-decoration : none;
     background      : rgba(255, 255, 255, 0.5);
@@ -246,3 +248,63 @@ a.drinks-box{
     padding-right: 13px;
 }
 
+/*---------RESPONSIVE LAYOUT-----------*/
+
+@media only screen and (min-width: 500px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .body-home{
+        background-image: url('images/bg-land2.jpeg');
+    }
+    
+    .body-order{
+        background-image: url('images/bg-land.jpeg');
+        color: black;
+    }
+}
